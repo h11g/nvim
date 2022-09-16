@@ -13,6 +13,25 @@ M.treesitter = {
     "scss",
     "rust",
   },
+  highlight = {
+    additional_vim_regex_highlighting = false,
+  },
+
+  -- enable incremental selection
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = "<CR>",
+      node_incremental = "<CR>",
+      node_decremental = "<BS>",
+      scope_incremental = "<TAB>",
+    },
+  },
+
+  -- enable code indent
+  indent = {
+    enable = true,
+  }
 }
 
 M.mason = {
@@ -47,7 +66,7 @@ M.nvimtree = {
 
 M.telescope = {
   defaults = {
-    prompt_prefix = "   ",
+    prompt_prefix = "   ",
   }
 }
 

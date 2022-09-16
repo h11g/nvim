@@ -13,10 +13,10 @@ M.general = {
     ["<C-d>"] = { "10j", "move down 10 line", opts = opt },
 
     -- switch between windows
-    ["<leader>h"] = { "<C-w>h", "window left" },
-    ["<leader>l"] = { "<C-w>l", "window right" },
-    ["<leader>j"] = { "<C-w>j", "window down" },
-    ["<leader>k"] = { "<C-w>k", "window up" },
+    -- ["<leader>h"] = { "<C-w>h", "window left" },
+    -- ["<leader>l"] = { "<C-w>l", "window right" },
+    -- ["<leader>j"] = { "<C-w>j", "window down" },
+    -- ["<leader>k"] = { "<C-w>k", "window up" },
   },
   v = {
     ["<C-j>"] = { "5j", "move down 5 line", opts = opt },
